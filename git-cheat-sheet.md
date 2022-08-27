@@ -7,4 +7,4 @@ It save me from dealing with long searches amoung documentation pages.
 This document will be update frequently to add new ✨Tips✨
 
 ### A simple diagram that shows how git works
-![how-git-work](https://user-images.githubusercontent.com/9167445/187040972-089cb45c-0fce-4e65-af32-5d8278c2b2ed.png)
+![how-git-work](https://user-images.githubusercontent.com/9167445/187041100-2cfab638-4e13-40da-b93f-8373b0a56f87.png)
