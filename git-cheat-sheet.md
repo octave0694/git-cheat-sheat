@@ -5,3 +5,6 @@ icon from [icons8](https://icons8.fr)
 The purpose of this document is to reference some git usefull commands and serve as cheat-sheet. 
 It save me from dealing with long searches amoung documentation pages.
 This document will be update frequently to add new ✨Tips✨
+
+### A simple diagram that shows how git works
+![how-git-work](https://user-images.githubusercontent.com/9167445/187040972-089cb45c-0fce-4e65-af32-5d8278c2b2ed.png)
