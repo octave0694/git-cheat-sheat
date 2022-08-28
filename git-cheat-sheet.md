@@ -20,12 +20,12 @@ Click the link bellow for full git installation tutorial.
 For more details about git configuration, check the [official documentation](https://git-scm.com/docs/git-config).
 
 ##### Git config
-`git config --list` get current git global configuration
-`git config --local -l` get the configuration values of the current git repository. This configuration can also be found and updated in the file .git/config.
-Change some global configuration.
-`git config --global user.name "myName"`
-`git config --global user.email "hello@email.com"`
-`git config --global color.ui auto`
+`git config --list` get current git global configuration.  
+`git config --local -l` get the configuration values of the current git repository.  This configuration can also be found and updated in the file .git/config.  
+Change some global configuration.  
+`git config --global user.name "myName"`  
+`git config --global user.email "hello@email.com"`  
+`git config --global color.ui auto`  
 
 ### 🪄 Repository 🪄
 For more details about repository initialization, check the [official documentation](https://git-scm.com/docs/git-init).
@@ -36,36 +36,36 @@ For more details about repository initialization, check the [official documentat
 
 ### 🪄 Staging zone 🪄
 For more details, check the official documentation links bellow:
-[git status](https://git-scm.com/docs/git-status)
-[git add](https://git-scm.com/docs/git-add)
-[git diff](https://git-scm.com/docs/git-diff)
-[git restore](https://git-scm.com/docs/git-restore)
+[git status](https://git-scm.com/docs/git-status)  
+[git add](https://git-scm.com/docs/git-add)  
+[git diff](https://git-scm.com/docs/git-diff)  
+[git restore](https://git-scm.com/docs/git-restore)  
 
 ##### Git status
-`git status` show the current files on the working directory
-`git status -s` show the working tree in short format description
+`git status` show the current files on the working directory.  
+`git status -s` show the working tree in short format description.  
 
 ##### Git add
-`git add .` add all files from the working directory (untracked files) to the staging zone.
-`git add [file-name] [...]` add all specified files from the working directory to the staging zone.
-`git add -A` add every single file within the working repository to the staging zone.
+`git add .` add all files from the working directory (untracked files) to the staging zone.  
+`git add [file-name] [...]` add all specified files from the working directory to the staging zone.  
+`git add -A` add every single file within the working repository to the staging zone.  
 
 ##### Git rm
-`git rm --cached [file-name]` remove file from the staging zone and put it back to the working directory (untracked files).
-`git rm -r --cached .` untrack all the files from the staging zone.
+`git rm --cached [file-name]` remove file from the staging zone and put it back to the working directory (untracked files).  
+`git rm -r --cached .` untrack all the files from the staging zone.  
 
 ##### Git diff
-`git diff` show changes between a commit and the working directory
+`git diff` show changes between a commit and the working directory.  
 
 ##### Git restore
-`git restore [file-name]` restore file to the state of the last commit 
+`git restore [file-name]` restore file to the state of the last commit.  
 
 ### 🪄 Save point/Snapshot 🪄
 For more details about git commit, check the [offcial documentation](https://git-scm.com/docs/git-commit).
 
 ##### Git commit
-`git commit -m "commit message"` make a commit with a specified message.
-`git commit --amend -m "new commit message` change the message of the previous commit
+`git commit -m "commit message"` make a commit with a specified message.  
+`git commit --amend -m "new commit message` change the message of the previous commit.  
 
 ### 🪄 Log history 🪄
 For more details, check the official documentation links bellow:
@@ -73,10 +73,10 @@ For more details, check the official documentation links bellow:
 [git show](https://git-scm.com/docs/git-show)
 
 ##### Git log and show
-`git log` show the commit history of the repository.
+`git log` show the commit history of the repository.  
 
 ##### Git show
-`git show [commit-hash]` show details about a specified commit
+`git show [commit-hash]` show details about a specified commit.  
 
 ### 🪄 Sync with remote repository 🪄
 For more details, check the official documentation links bellow:
