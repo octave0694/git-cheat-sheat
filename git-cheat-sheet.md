@@ -31,8 +31,8 @@ Change some global configuration.
 For more details about repository initialization, check the [official documentation](https://git-scm.com/docs/git-init).
 
 ##### Git init
-`git init` initialize a new local repository.
-`git init -b [branch-name]` initialize a new local repository with the initial branch name.
+`git init` initialize a new local repository.  
+`git init -b [branch-name]` initialize a new local repository with the initial branch name.  
 
 ### 🪄 Staging zone 🪄
 For more details, check the official documentation links bellow:
