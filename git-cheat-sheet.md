@@ -81,12 +81,17 @@ For more details, check the official documentation links bellow:
 
 ### 🪄 Sync with remote repository 🪄
 For more details, check the official documentation links bellow:  
+[git clone](https://git-scm.com/docs/git-clone)  
 [git remote](https://git-scm.com/docs/git-remote)  
 [git push](https://git-scm.com/docs/git-push)  
-[git pull](https://git-scm.com/docs/git-pull)
+[git pull](https://git-scm.com/docs/git-pull)  
 
 ##### Connect with SSH key
 Check [this link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) for more details about how to use git with ssh key connection.  
+
+##### Git clone
+`git clone [remote-repo-url] [folder-name]` clone a remote repository to a local folder path.  
+`git clone -o [repo-name] [remote-repo-url] [folder-name]` clone a remote repository by specifiying a custom name.  
 
 ##### Git remote
 `git remote add [repo-name] [repo-url]` add a remote repository to synchronize with.
@@ -94,15 +99,18 @@ Check [this link](https://docs.github.com/en/authentication/connecting-to-github
 ##### Git push
 `git push -u [remote-repo-name] [branch-name]` push the local branch to the remote repository and start tracking to this branch.  
 `git push -u [repo-name] [branch-name]` push a newly created branch to the remote server repository and set tracking for that branch. (A simple `git push` on a newly created local branch won't work).  
+`git push -f` force push a branch to the remote repository (after resolving a conflict).  
 
 ##### Git pull
-`git pull` get the latest changes from the remote server.
+`git pull` get the latest changes from the remote server.  
+`git pull -r [remote-repo] [branch-name]` rebase the current local branch from a branch on the remote repository.  
 
 ### 🪄 Branching 🪄
 For more details, check the official documentation links bellow:  
 [git-branch](https://git-scm.com/docs/git-branch)  
 [git checkout](https://git-scm.com/docs/git-checkout)  
-[git merge](https://git-scm.com/docs/git-merge)
+[git merge](https://git-scm.com/docs/git-merge)  
+[git rebase](https://git-scm.com/docs/git-rebase)
 
 ##### Git branch
 `git branch` list all branches in the local repository, and show the current branch you are working on.   
@@ -120,5 +128,7 @@ For more details, check the official documentation links bellow:
 
 ##### Git merge
 `git merge [branch-name]` merge changes from another branch into the current branch.  
-``
+##### Git rebase
+`git rebase --continue` continue a rebase operation after resolving all conflict. It is used after a `git pull -r`.  
+
 
