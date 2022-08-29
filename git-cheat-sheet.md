@@ -73,16 +73,51 @@ For more details, check the official documentation links bellow:
 [git show](https://git-scm.com/docs/git-show)
 
 ##### Git log and show
-`git log` show the commit history of the repository.  
+`git log` show the commits history of the repository.  
+`git log --oneline` show the commits history in pretty mode (one line for each commit).  
 
 ##### Git show
 `git show [commit-hash]` show details about a specified commit.  
 
 ### 🪄 Sync with remote repository 🪄
 For more details, check the official documentation links bellow:
-[git remote](https://git-scm.com/docs/git-remote)
-[git push](https://git-scm.com/docs/git-push)
+[git remote](https://git-scm.com/docs/git-remote)  
+[git push](https://git-scm.com/docs/git-push)  
+[git pull](https://git-scm.com/docs/git-pull)
+
+##### Connect with SSH key
+Check [this link](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) for more details about how to use git with ssh key connection.  
 
 ##### Git remote
 `git remote add [repo-name] [repo-url]` add a remote repository to synchronize with.
+
 ##### Git push
+`git push -u [remote-repo-name] [branch-name]` push the local branch to the remote repository and start tracking to this branch.  
+`git push -u [repo-name] [branch-name]` push a newly created branch to the remote server repository and set tracking for that branch. (A simple `git push` on a newly created local branch won't work).  
+
+##### Git pull
+`git pull` get the latest changes from the remote server.
+
+### 🪄 Branching 🪄
+For more details, check the official documentation links bellow:  
+[git-branch](https://git-scm.com/docs/git-branch)  
+[git checkout](https://git-scm.com/docs/git-checkout)  
+
+##### Git branch
+`git branch` list all branches in the local repository, and show the current branch you are working on.   
+`git branch -r` list all branches from the remote server.   
+`git branch -a` list both local and remote branches.  
+`git branch -M [branch-name]` force rename the current branch.  
+`git branch [branch-name]` create a new branch in local repository.  
+`git branch -d [branch-name]` delete a fully merged branch.  
+`git branch -D [branch-name]` force delete a branch even if it's not merged.
+
+##### Git checkout
+`git checkout [branch-name]` switch to a branch.  
+`git checkout -` switch to the previous branch.  
+`git checkout -b [branch-name]` create a new branch and checkout on this branch. 
+
+##### Git merge
+`git merge [branch-name]` merge changes from another branch into the current branch.  
+``
+
