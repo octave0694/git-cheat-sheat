@@ -10,7 +10,7 @@ This document will be update frequently to add new ✨Tips✨
 ![how-git-work](https://user-images.githubusercontent.com/9167445/187041457-f2824f67-59a0-4407-9d2c-aacc8ae3028d.png)
 
 ### How to install git
-Click the link bellow for full git installation tutorial.
+Click the link bellow for full git installation tutorial.  
 [How to install git](https://github.com/git-guides/install-git)
 
 ### 🪄 Check git version 🪄
@@ -35,7 +35,7 @@ For more details about repository initialization, check the [official documentat
 `git init -b [branch-name]` initialize a new local repository with the initial branch name.  
 
 ### 🪄 Staging zone 🪄
-For more details, check the official documentation links bellow:
+For more details, check the official documentation links bellow:  
 [git status](https://git-scm.com/docs/git-status)  
 [git add](https://git-scm.com/docs/git-add)  
 [git diff](https://git-scm.com/docs/git-diff)  
@@ -68,9 +68,9 @@ For more details about git commit, check the [offcial documentation](https://git
 `git commit --amend -m "new commit message` change the message of the previous commit.  
 
 ### 🪄 Log history 🪄
-For more details, check the official documentation links bellow:
-[git log](https://git-scm.com/docs/git-log)
-[git show](https://git-scm.com/docs/git-show)
+For more details, check the official documentation links bellow:  
+[git log](https://git-scm.com/docs/git-log)  
+[git show](https://git-scm.com/docs/git-show)  
 
 ##### Git log and show
 `git log` show the commits history of the repository.  
@@ -80,7 +80,7 @@ For more details, check the official documentation links bellow:
 `git show [commit-hash]` show details about a specified commit.  
 
 ### 🪄 Sync with remote repository 🪄
-For more details, check the official documentation links bellow:
+For more details, check the official documentation links bellow:  
 [git remote](https://git-scm.com/docs/git-remote)  
 [git push](https://git-scm.com/docs/git-push)  
 [git pull](https://git-scm.com/docs/git-pull)
