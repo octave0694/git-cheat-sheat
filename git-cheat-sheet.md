@@ -102,6 +102,7 @@ Check [this link](https://docs.github.com/en/authentication/connecting-to-github
 For more details, check the official documentation links bellow:  
 [git-branch](https://git-scm.com/docs/git-branch)  
 [git checkout](https://git-scm.com/docs/git-checkout)  
+[git merge](https://git-scm.com/docs/git-merge)
 
 ##### Git branch
 `git branch` list all branches in the local repository, and show the current branch you are working on.   
